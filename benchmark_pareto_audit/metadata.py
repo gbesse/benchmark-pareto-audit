@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Calculer un front de Pareto en conservant les mesures manquantes', 'en': 'Compute a Pareto frontier while retaining missing measurements', 'es': 'Calcular una frontera de Pareto conservando medidas faltantes'}

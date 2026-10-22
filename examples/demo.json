@@ -1,0 +1,40 @@
+{
+  "objectives": {
+    "accuracy": "max",
+    "latency_ms": "min"
+  },
+  "candidates": [
+    {
+      "id": "a",
+      "metrics": {
+        "accuracy": [
+          0.85,
+          0.9
+        ],
+        "latency_ms": [
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "b",
+      "metrics": {
+        "accuracy": [
+          0.8,
+          0.82
+        ],
+        "latency_ms": [
+          30,
+          35
+        ]
+      }
+    },
+    {
+      "id": "unknown",
+      "metrics": {
+        "accuracy": 0.99
+      }
+    }
+  ]
+}

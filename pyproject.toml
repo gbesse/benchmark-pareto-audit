@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benchmark-pareto-audit"
+version = "0.1.0a1"
+description = "FR: Calculer un front de Pareto en conservant les mesures manquantes | EN: Compute a Pareto frontier while retaining missing measurements | ES: Calcular una frontera de Pareto conservando medidas faltantes"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+benchmark-pareto-audit = "benchmark_pareto_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["benchmark_pareto_audit*"]
